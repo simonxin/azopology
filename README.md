@@ -19,4 +19,4 @@ $ResourceGroups = 'test-resource-group', 'demo-resource-group'
 Get-AzrgVizualization -ResourceGroups $ResourceGroups  -ShowGraph -OutputFormat png -Verbose
 ```
 
-# Does this looks like Network Watcher -> Monitor -> Topology feature? 
+# feature views 
