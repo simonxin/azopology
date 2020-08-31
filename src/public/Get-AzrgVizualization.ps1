@@ -183,7 +183,7 @@ function Get-AzrgVizualization {
                         $remaining | ForEach-Object {
                             if ($_.Category -eq 'fromcateg') {
                                 $from = $_.from
-                                Get-ImageNode -Name "$UniqueIdentifier$from" -Rows $from -Type $_.fromCateg   
+                                Get-azureicon -Name "$UniqueIdentifier$from" -Rows $from -Type $_.fromCateg   
                             }
                         }
                         $UniqueIdentifier = $UniqueIdentifier + 1
